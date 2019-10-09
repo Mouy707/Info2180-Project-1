@@ -1,0 +1,82 @@
+.grid {
+  display: grid;
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  height: 50px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 80px 200px;
+  grid-row-gap: 60px;
+  grid-column-gap: 40px;
+  margin-top: 44px;
+  grid-auto-rows: 500px;
+  justify-content: center;
+  
+}
+
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start:  1;
+  grid-row-end: span 1;
+  background-color: #32cd32;
+  color: white;
+  border: 2px dodgerblue solid;
+  height: 120px;
+  text-align: center;
+}
+
+#header .content {
+  position: relative;
+  padding: 15px;
+  top: 12px;
+  margin: auto;  
+  width: 400px;
+  height: 60px;
+  border: 3px solid white;
+  
+  
+}
+
+
+#sidebar {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start:  2;
+  grid-row-end: span 3;
+  background-color: #dcdcdc;
+  color: black;
+  border: 2px dodgerblue solid;
+  margin: 0 0 0 60px;
+
+}
+
+#main {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start:  2;
+  grid-row-end: span 3;
+  background-color: beige;
+  color: black;
+  border: 2px dodgerblue solid;
+  margin: 0 100px 0 0;
+
+
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+ /*
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}*/
